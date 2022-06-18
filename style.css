@@ -347,62 +347,21 @@ section .title::after {
   color: #0275d8;
   background: none;
 }
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
+.skills .skills-content .right {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row: auto;
 }
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
-}
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
-}
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
-}
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #0275d8;
-}
-.skills-content .right .html::before {
-  width: 90%;
-}
-.skills-content .right .css::before {
-  width: 90%;
-}
-.skills-content .right .js::before {
-  width: 90%;
-}
-.skills-content .right .react::before {
-  width: 90%;
-}
-.skills-content .right .node::before {
+.skills .skills-content .right .image {
   width: 80%;
+  height: 80%;
+  transition: transform 0.3s ease;
 }
-.skills-content .right .express::before {
-  width: 80%;
-}
-.skills-content .right .mongodb::before {
-  width: 80%;
-}
-.skills-content .right .sass::before {
-  width: 90%;
-}
-.skills-content .right .tailwind::before {
-  width: 90%;
-}
-.skills-content .right .mern::before {
-  width: 85%;
+
+.skills .skills-content .right .image:hover {
+  border: 2px solid #0275d8;
+  border-radius: 10%;
+  transform: scale(1.1);
 }
 
 .project-content {
