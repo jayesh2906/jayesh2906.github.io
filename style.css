@@ -348,9 +348,6 @@ section .title::after {
 .project-item li {
   list-style-type: square;
 }
-.project-item a:hover {
-  text-decoration: underline;
-}
 .project-item li::marker {
   color: #0275d8;
 }
@@ -380,7 +377,6 @@ section .title::after {
   padding: 4px 8px;
   margin-top: 20px;
   border-radius: 6px;
-  text-decoration: none;
   border: 2px solid #0275d8;
   transition: all 0.3s ease;
 }
