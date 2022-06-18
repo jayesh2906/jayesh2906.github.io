@@ -462,7 +462,7 @@ section .title::after {
   align-items: center;
 }
 .contact .contact-content .row .info {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .contact .contact-content .row i {
   font-size: 25px;
@@ -578,6 +578,9 @@ footer span a:hover {
   .skills .skills-content .column {
     width: 100%;
     margin-bottom: 35px;
+  }
+  .project-content {
+    margin-top: 0px;
   }
 }
 
