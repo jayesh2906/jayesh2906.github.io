@@ -282,12 +282,6 @@ section .title::after {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.skills .skills-content .left {
-  width: 50%;
-}
-.skills .skills-content .right {
-  width: 50%;
-}
 .skills .skills-content .left p {
   text-align: justify;
 }
