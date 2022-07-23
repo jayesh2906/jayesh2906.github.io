@@ -304,8 +304,8 @@ section .title::after {
   grid-row: auto;
 }
 .skills .skills-content .right .image {
-  width: 75%;
-  height: 75%;
+  width: 80%;
+  height: 80%;
   transition: transform 0.3s ease;
 }
 .skills .skills-content .right .image:hover {
