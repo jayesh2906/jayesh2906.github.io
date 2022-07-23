@@ -219,9 +219,6 @@ section .title::after {
 }
 
 /* about section styling */
-.about {
-  padding-bottom: 0px;
-}
 .about .title::after {
   content: "who i am";
 }
@@ -307,8 +304,8 @@ section .title::after {
   grid-row: auto;
 }
 .skills .skills-content .right .image {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   transition: transform 0.3s ease;
 }
 .skills .skills-content .right .image:hover {
@@ -337,10 +334,10 @@ section .title::after {
   gap: 0.5rem;
   box-shadow: 0px 5px 15px 0 #0000002c;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 .project-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .project-item ul {
   padding: 0 1.5rem;
@@ -621,5 +618,8 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+  .project-desc {
+    margin-bottom: 0px;
   }
 }

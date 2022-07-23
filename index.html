@@ -24,8 +24,8 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -66,6 +66,37 @@
         </div>
     </section>
 
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Frontend Services</div>
+                        <p>Can Provide a responsive Web application with React Js and CSS Frameworks.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Full-Stack App</div>
+                        <p>Can Provide Full Stack Web application With MERN Stack Technology.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Backend Services</div>
+                        <p>Can Provide Backend Services with Node Js, Express framework and MongoDb.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
@@ -73,16 +104,15 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>I have <span id="experience"></span> of experience in MERN Stack Web Technology.</p>
+                    <p>I have <span id="experience"></span> of experience in developing full stack MERN applications.
+                    </p>
                     <p><b>Frontend Skills : </b>
-                        React Js, React native, Redux, JavaScript, Html 5, Css 3, Tailwind CSS,
-                        Material Ui,
-                        Bootstrap 5 and SASS.
+                        JavaScript, React Js, Redux, Next Js, Css 3, React Native, Html 5, Tailwind CSS,
+                        Material Ui, Bootstrap 5, Styled Components and SASS.
                     </p>
                     <p><b>Backend Skills : </b>
-                        Node Js, Express Js, MongoDb.
+                        Node Js, Express Js, Next Js, MongoDb.
                     </p>
-                    <p>Experience in developing full stack MERN applications.</p>
                     <br>
                     <h4>Projects :</h4>
                     <p>Laptop with React Js and Tailwind CSS.</p>
@@ -91,6 +121,7 @@
                     <p>Full E-Commerce Web Application.</p>
                     <p>Ice Mart Mobile Application.</p>
                     <p>Real-time Online Chat Application.</p>
+                    <p>Google Theme Portfolio.</p>
                     <p>Movie Info Application.</p>
                     <a href="https://github.com/jayesh2906" target="_blank">GitHub Project Repository link</a>
                 </div>
@@ -107,6 +138,9 @@
 
                     <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img class="image"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /></a>
+
+                    <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img class="image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /></a>
 
                     <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img class="image"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /></a>
@@ -139,6 +173,10 @@
                     <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
                         <img class="image"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /></a>
+
+                    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+                        <img class="image" style="object-fit: contain;"
+                            src="https://styled-components.com/atom.png" /></a>
                 </div>
                 <div class="project-content">
                     <div class="project-desc">Projects Description.</div>
@@ -232,8 +270,8 @@
                                 <li>Uses Google-maps for location of user.</li>
                                 <li>Uses Google pay payment gateway integration for demo virtual payment of orders.
                                 </li>
-                                <li>Technologies used: JavaScript, React Native, Redux Toolkit, Node Js, Expess Js,
-                                    MongoDB.</li>
+                                <li>Technologies used: JavaScript, React Native, Redux Thunk, Redux Toolkit, Node Js,
+                                    Expess Js, MongoDB.</li>
                             </ul>
                             <div class="button-group">
                                 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6941967333682737152/"
@@ -260,7 +298,23 @@
                             </div>
                         </div>
 
-
+                        <div class="project-item">
+                            <h4 class="project-title">Google Theme Portfolio</h4>
+                            <img class="project-image" src="./assets/google-portfolio.jpg" alt="">
+                            <ul>
+                                <li>Developed Google Theme Portfolio using Next Js and Styled Components.</li>
+                                <li>Here you can see my Skills, Projects and everything about me.</li>
+                                <li>Uses EmailJs for contacting via email.</li>
+                                <li>Uses Map for showing my location.</li>
+                            </ul>
+                            <div class="button-group">
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:6956103958230630400/"
+                                    target="_blank">Video
+                                    Demo</a>
+                                <a href="https://google-portfolio.vercel.app/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/jayesh2906/google-portfolio" target="_blank">Source Code</a>
+                            </div>
+                        </div>
 
                         <div class="project-item">
                             <h4 class="project-title">Movie Info Application</h4>
@@ -270,55 +324,24 @@
                                     movies
                                     record.</li>
                                 <li>Uses OMDb RESTful web service.</li>
-                                <li>Technologies used: JavaScript, React, Node Js, Expess Js, Html, CSS, Bootstrap 5.
+                                <li>Technologies used: JavaScript, React, Node Js, Expess Js, Html, CSS, Bootstrap 5,
+                                    MongoDB.
                                 </li>
-                                <li>Database used: MongoDB.</li>
                             </ul>
                             <div class="button-group">
                                 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6842939354764201984/"
                                     target="_blank">Video Demo</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- services section start -->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Frontend Services</div>
-                        <p>Can Provide a responsive Web application with React Js and CSS Frameworks.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Full-Stack App</div>
-                        <p>Can Provide Full Stack Web application With MERN Stack Technology.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Backend Services</div>
-                        <p>Can Provide Backend Services with Node Js, Express framework and MongoDb.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
 
     <!-- contact section start -->
-    <section style="padding-top: 20px !important;" class="contact" id="contact">
+    <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
@@ -346,8 +369,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="contact-right">
                     <div class="row">
                         <i class="fas fa-phone"></i>
                         <div class="info">
@@ -355,13 +376,26 @@
                             <div class="sub-title">8329812727</div>
                         </div>
                     </div>
+                </div>
+                <div class="contact-right">
+                    <div class="row">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="info">
+                            <div class="head">Portfolio</div>
+                            <div class="sub-title">
+                                <a href="https://www.linkedin.com/in/jayesh-choudhary-72444518b/" target="_blank">
+                                    Visit my Google Portfolio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <i class="fab fa-linkedin"></i>
                         <div class="info">
                             <div class="head">Linkedin</div>
                             <div class="sub-title">
-                                <a href="https://www.linkedin.com/in/jayesh-choudhary-72444518b/" target="_blank">Go to
-                                    Linkedin Profile</a>
+                                <a href="https://www.linkedin.com/in/jayesh-choudhary-72444518b/" target="_blank">
+                                    Visit my Linkedin Profile</a>
                             </div>
                         </div>
                     </div>
@@ -370,8 +404,8 @@
                         <div class="info">
                             <div class="head">Twitter</div>
                             <div class="sub-title">
-                                <a href="https://twitter.com/JayeshMERN" target="_blank">Go to
-                                    Twitter Profile</a>
+                                <a href="https://twitter.com/JayeshMERN" target="_blank">
+                                    Visit my Twitter Profile</a>
                             </div>
                         </div>
                     </div>
@@ -380,7 +414,7 @@
                         <div class="info">
                             <div class="head">GitHub</div>
                             <div class="sub-title">
-                                <a href="https://github.com/jayesh2906" target="_blank">Go to GitHub Profile</a>
+                                <a href="https://github.com/jayesh2906" target="_blank">Visit my GitHub Profile</a>
                             </div>
                         </div>
                     </div>
@@ -391,7 +425,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">JayeshChoudhary</a> | <span class="far fa-copyright"></span> 2021.</span>
+        <span>Created By <a href="#">JayeshChoudhary</a> | <span class="far fa-copyright"></span> 2022.</span>
     </footer>
 
     <script src="script.js"></script>
