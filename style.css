@@ -468,7 +468,12 @@ section .title::after {
 .contact .contact-content .info .sub-title {
   color: #333;
 }
-
+.contact .contact-content .info .sub-title a {
+  display: inline-block;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 .contact .contact-content .info .sub-title a:hover {
   text-decoration: underline;
 }
@@ -561,6 +566,12 @@ footer span a:hover {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
+  }
+  .column.left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
   }
   .about .about-content .right {
     flex: 100%;

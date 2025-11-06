@@ -47,6 +47,10 @@ $(document).ready(function () {
     backSpeed: 60,
     loop: true,
   });
+
+  // Auto-update current year in footer
+  const currentYear = new Date().getFullYear();
+  $("#year").text(currentYear);
 });
 
 let today = new Date();
